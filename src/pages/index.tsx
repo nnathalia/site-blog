@@ -1,4 +1,3 @@
-import { Header } from "@/components/header";
 import { Geist, Geist_Mono } from "next/font/google";
 
 const geistSans = Geist({
@@ -13,9 +12,8 @@ const geistMono = Geist_Mono({
 
 export default function Home() {
   return (
-    <div className={`${geistSans.variable} ${geistMono.variable} bg-background h-screen w-full bg-black text-white`}>
-      <Header />
-      <h1 className="text-3xl font-bold font-mono text-center text-purple-500">Hello World</h1>
+    <div className={`${geistSans.variable} ${geistMono.variable} grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 font-[family-name:var(--font-geist-sans)] bg-zinc-950 text-white`}>
+     
     </div>
   );
 }
