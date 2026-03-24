@@ -1,5 +1,5 @@
 import { PT_Sans_Caption } from "next/font/google";
-import { Button } from "../ui/button";
+import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { ArrowRight, Store } from "lucide-react";
 
@@ -12,7 +12,7 @@ const ptSansCaption = PT_Sans_Caption({
 export function CallToAction() {
     return (
         <section className="relative py-24 mt-20 bg-gradient-to-b from-cyan-950/20 to-gray-700">
-            <div className="absolute inset-0 hidden md:block bg-[url('/background-footer.svg')] bg-cover bg-center opacity-90"/>
+            <div className="absolute inset-0 hidden md:block bg-[url('/background-footer.svg')] bg-cover bg-center opacity-90" />
             <div className="container relative">
                 <div className="relative flex flex-col  items-center gap-6 text-center">
 
