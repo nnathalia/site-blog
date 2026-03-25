@@ -31,7 +31,6 @@ export function HeroSection() {
                             </Button>
                             <p className="text-gray-300 text-body-xs">Não precisa de cartão de crédito</p>
                         </div>
-
                     </div>
                 </div>
                 <div className="relative h-[20rem] hidden md:h-full order-first md:order-last items-center justify-center md:flex">

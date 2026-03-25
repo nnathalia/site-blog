@@ -1,4 +1,3 @@
-import { TrendingUpDown } from 'lucide-react'
 import type { Config } from 'tailwindcss'
 
 export default {
@@ -68,10 +67,7 @@ export default {
         // Action Inter -
         'action-md': ['16px', { lineHeight: 'normal', fontWeight: '500' }],
         'action-sm': ['14px', { lineHeight: 'normal', fontWeight: '500' }],
-
       }
-
-
     },
     plugins: [],
   }

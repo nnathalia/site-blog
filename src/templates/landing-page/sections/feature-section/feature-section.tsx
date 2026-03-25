@@ -28,7 +28,6 @@ export function FeatureSection() {
                         </Button>
                     </div>
 
-
                     <div className="flex flex-col items-center justify-center w-full">
                         <div className="w-full max-w-md overflow-hidden">
                             <Image

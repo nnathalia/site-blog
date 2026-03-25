@@ -1,13 +1,7 @@
-import { PT_Sans_Caption } from "next/font/google";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { ArrowRight, Store } from "lucide-react";
 
-
-const ptSansCaption = PT_Sans_Caption({
-    subsets: ['latin'],
-    weight: '700'
-})
 
 export function CallToAction() {
     return (
@@ -15,7 +9,6 @@ export function CallToAction() {
             <div className="absolute inset-0 hidden md:block bg-[url('/background-footer.svg')] bg-cover bg-center opacity-90" />
             <div className="container relative">
                 <div className="relative flex flex-col  items-center gap-6 text-center">
-
                     <div className="bg-cyan-300 p-4 w-fit rounded-full absolute -top-32">
                         <Store className="text-cyan-100" />
                     </div>
@@ -28,7 +21,6 @@ export function CallToAction() {
                         </Link>
                     </Button>
                 </div>
-
             </div>
         </section>
     )
