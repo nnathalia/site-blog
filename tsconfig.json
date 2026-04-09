@@ -27,6 +27,6 @@
     ".next/dev/types/**/*.ts",
     "**/*.mts",
     ".contentlayer/generated"
-  ],
+, "src/components/avatar/avatar-image.tsx"  ],
   "exclude": ["node_modules"]
 }
