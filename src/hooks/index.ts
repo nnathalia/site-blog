@@ -1,5 +1,5 @@
+export * from "./use-clipboard"
 export * from "./use-share"
-export * from "./social-providers"
 
 
 

@@ -5,6 +5,7 @@ const nextConfig: NextConfig = {
   /* config options here */
   reactCompiler: true,
   reactStrictMode: true,
+  turbopack: {}
 };
 
 export default withContentlayer(nextConfig);
