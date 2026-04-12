@@ -3,9 +3,9 @@ title: A jornada do empreendedorismo
 description: Empreendedores de todos os tamanhos confiam no Site.Set para lançar e gerenciar suas lojas online com facilidade. Descubra como nossa plataforma simplifica o processo de construção de sites e acelera o crescimento do seu negócio.
 date: 2024-12-01
 image: /assets/sexto-post.png
-author: 
-    name: "Martin Geidt"
-    avatar: "/avatar-martin.png"
+author:
+  name: Martin Geidt
+  avatar: /avatar-martin.png
 ---
 
 Empreendedores de todos os tamanhos confiam no Site.Set para lançar e gerenciar suas lojas online com facilidade. Descubra como nossa plataforma simplifica o processo de construção de sites e acelera o crescimento do seu negócio.

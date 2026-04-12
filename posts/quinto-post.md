@@ -3,9 +3,9 @@ title: As vantagens de ter uma loja online
 description: Com a evolução digital, mais consumidores preferem fazer compras pela internet, o que torna fundamental para qualquer empreendedor ter uma presença online. Neste post, vamos explorar as principais vantagens de ter uma loja virtual e como ela pode impulsionar o seu sucesso no mercado.
 date: 2024-10-02
 image: /assets/quinto-post.png
-author: 
-    name: "Cristofer Carder"
-    avatar: "/avatar-cristofer.png"
+author:
+  name: Cristofer Carder
+  avatar: /avatar-cristofer.png
 ---
 
 Com a evolução digital, mais consumidores preferem fazer compras pela internet, o que torna fundamental para qualquer empreendedor ter uma presença online. Neste post, vamos explorar as principais vantagens de ter uma loja virtual e como ela pode impulsionar o seu sucesso no mercado.
