@@ -1,3 +1,4 @@
+"use client"
 import { Search } from "@/components/search";
 import { useRouter } from "next/router";
 import { PostCard } from "@/templates/blog/components/post-card";
