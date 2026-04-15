@@ -3,8 +3,25 @@ import "@/styles/globals.css"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: 'Site.set',
-  description: 'Venda seus produtos como afiliado em um único lugar',
+  title: 'Blog',
+  description: 'Dicas e estratégias para impulsionar seu negócio',
+  robots: 'index, follow',
+  openGraph: {
+    title: 'Blog',
+    description: 'Dicas e estratégias para impulsionar seu negócio',
+    type: 'website',
+    url: 'https://site-blog-zeta-plum.vercel.app',
+    siteName: 'Site.set',
+    images: [
+      {
+        url: 'https://site-blog-zeta-plum.vercel.app/og-image.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Site.set',
+      },
+    ],
+    locale: 'pt-BR',
+  }
 }
 
 export default function RootLayout({
