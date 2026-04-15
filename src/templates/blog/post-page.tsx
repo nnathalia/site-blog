@@ -3,9 +3,8 @@ import Image from "next/image"
 import { Breadcrumb, BreadcrumbItem, BreadcrumbList, BreadcrumbSeparator } from "@/components/ui/breadcrumb"
 import { Avatar } from "@/components/avatar"
 import { Markdown } from "@/components/markdown"
-import { Button } from "@/components/ui/button"
-import { useShare } from "@/hooks"
 import { Post } from "contentlayer/generated"
+import { PostShare } from "./components/post-share"
 
 export type PostPageProps = {
   post: Post
@@ -13,12 +12,6 @@ export type PostPageProps = {
 export const PostPage = ({ post }: PostPageProps) => {
   const publishedDate = new Date(post?.date).toLocaleDateString("pt-BR")
   const postUrl = `https://site.set/blog/${post.slug}`
-
-  const { shareButtons } = useShare({
-    url: postUrl,
-    title: post?.title,
-    text: post?.description
-  })
 
   return (
     <main className="mt-20">
@@ -61,25 +54,7 @@ export const PostPage = ({ post }: PostPageProps) => {
               <Markdown content={post?.body.raw} />
             </div>
           </article>
-
-          <aside className="space-y-6 ">
-            <div className="rounded-lg flex items-center justify-between md:grid md:grid-cols-1 md:items-start md:px-6">
-              <h2 className=" md:mb-4 text-heading-xs text-gray-100">Compartilhar</h2>
-              <div className="flex justify-end md:justify-between md:flex-col gap-2 ">
-                {shareButtons.map((provider) => (
-                  <Button
-                    key={provider.provider}
-                    onClick={provider.action}
-                    variant="outline"
-                    className="w-fit md:w-full justify-start gap-2"
-                  >
-                    {provider.icon}
-                    <span className="hidden md:block">{provider.name}</span>
-                  </Button>
-                ))}
-              </div>
-            </div>
-          </aside>
+          <PostShare postUrl={postUrl} postTitle={post.title} postDescription={post.description} />
         </div>
       </div>
     </main>
